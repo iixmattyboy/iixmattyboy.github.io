@@ -1,0 +1,74 @@
+/* homepage.css */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    word-spacing: 20px;
+}
+
+.hero {
+    height: 500px;
+    width: 100%;
+    border: solid 1px black;
+    display: flex;
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    padding: 10px;
+    border: solid 1px black;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.about {
+    height: 500px;
+    width: 100%;
+    border: solid 1px black;
+    display: flex;
+    background-color: lightcoral;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-content {
+    padding: 20px;
+    width: 75%;
+    text-align: center;
+}
+
+.skills {
+    height: 500px;
+    width: 100%;
+    border: solid 1px black;
+    display: flex;
+    background-color: aquamarine;
+    justify-content: center;
+    align-items: center;
+}
+
+.languages {
+    display: flex;
+}
+
+.language-names,
+.language-icons {
+    list-style-type: none;
+    padding: 0;
+}
+
+.language-names li,
+.language-icons li {
+    margin: 5px;
+}
